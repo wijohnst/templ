@@ -1,5 +1,5 @@
-module github.com/a-h/templ-examples/hello-world
+module github.com/wijohnst/templ-poc
 
 go 1.22.3
 
-require github.com/a-h/templ v0.2.707 // indirect
+require github.com/a-h/templ v0.2.707

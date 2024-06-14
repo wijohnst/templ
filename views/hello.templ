@@ -1,0 +1,10 @@
+package views
+
+import "github.com/wijohnst/templ-poc/views/components"
+
+templ Hello(name string) {
+	<div>
+		<div>Hello, { name }</div>
+		@components.Button("!!!")
+	</div>
+}
